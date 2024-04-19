@@ -1,0 +1,1752 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "order" : [
+      "Bos",
+      "mp"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "Bos" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "animation" : "none",
+        "frame" : {
+          "y" : "80",
+          "x" : "center",
+          "width" : "308",
+          "height" : "110"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "1",
+        "backgroundColor" : "rgba(255,255,255,0.3)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "sparta" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "light",
+            "frame" : {
+              "y" : "42",
+              "x" : "11",
+              "width" : "138",
+              "height" : "59"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "1",
+            "backgroundColor" : "rgba(173, 173, 173, 0.25)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "ampm" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "-8",
+                  "x" : "55",
+                  "width" : "85",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(235, 235, 235, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[ampm]",
+                "numberOfLines" : "1"
+              },
+              "date" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "5",
+                  "x" : "88",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "20",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[date]",
+                "numberOfLines" : "1"
+              },
+              "day" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "20",
+                  "x" : "88",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(235, 235, 235, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "8",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[day]",
+                "numberOfLines" : "1"
+              },
+              "time" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "8",
+                  "x" : "10",
+                  "width" : "55",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "22",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[time]",
+                "numberOfLines" : "1"
+              },
+              "spartakids" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "9",
+                  "x" : "77",
+                  "width" : "1",
+                  "height" : "40"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0.3)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "userInteraction" : "YES",
+                "animation" : "none",
+                "borderColor" : "rgba(255,255,255,0)"
+              }
+            },
+            "blurAlpha" : "0,8",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "time,ampm,spartakids,day,date",
+            "rotate" : "0",
+            "blurIntensity" : "3",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "animation" : "none"
+          },
+          "img" : {
+            "maskURL" : "none",
+            "actions" : "none",
+            "frame" : {
+              "y" : "0",
+              "x" : "-3",
+              "width" : "50",
+              "height" : "40"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "blindos.png",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          },
+          "spartaright" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "light",
+            "frame" : {
+              "y" : "42",
+              "x" : "161",
+              "width" : "138",
+              "height" : "59"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "1",
+            "backgroundColor" : "rgba(173, 173, 173, 0.25)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "barmov" : {
+                "radius" : "2",
+                "lowColor" : "rgba(255,0,0,1.0)",
+                "backColor" : "rgba(0, 0, 0, 0.26)",
+                "frame" : {
+                  "y" : "13",
+                  "x" : "13",
+                  "width" : "117",
+                  "height" : "10"
+                },
+                "innerColor" : "rgba(254, 247, 129, 1.00)",
+                "borderWidth" : "0",
+                "borderColor" : "rgba(194, 194, 194, 0.00)",
+                "type" : "BatteryBar",
+                "midColor" : "rgba(255,153,64,1.0)",
+                "gradientImage" : "none"
+              },
+              "batttxt" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "13",
+                  "x" : "13",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(214, 214, 214, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Battery",
+                "numberOfLines" : "1"
+              },
+              "date_1" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "18",
+                  "x" : "69",
+                  "width" : "60",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentRight",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "21",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[batterypercent]%",
+                "numberOfLines" : "1"
+              },
+              "day_1" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "24",
+                  "x" : "13",
+                  "width" : "99",
+                  "height" : "40"
+                },
+                "fontName" : "Gilroy-Medium.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(235, 235, 235, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "8",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[ischarging]",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0,8",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "date_1,day_1,batttxt,barmov",
+            "rotate" : "0",
+            "blurIntensity" : "3",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "actions" : "none"
+          },
+          "weather" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "light",
+            "frame" : {
+              "y" : "42",
+              "x" : "11",
+              "width" : "288",
+              "height" : "59"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "1",
+            "backgroundColor" : "rgba(173, 173, 173, 0.25)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "day2date" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "146",
+                  "width" : "31",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[dateplustwo] [day2shortday]",
+                "numberOfLines" : "1"
+              },
+              "hum" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "31",
+                  "x" : "49",
+                  "width" : "49",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Medium.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "6",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Humdity [humidity]%",
+                "numberOfLines" : "1"
+              },
+              "iconD1" : {
+                "frame" : {
+                  "y" : "19",
+                  "x" : "109",
+                  "width" : "22",
+                  "height" : "22"
+                },
+                "forecast" : "day1",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "bbl",
+                "imageColor" : "none"
+              },
+              "temp" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "5",
+                  "x" : "49",
+                  "width" : "29",
+                  "height" : "29"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "16",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[high]°",
+                "numberOfLines" : "1"
+              },
+              "tempb5" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "32",
+                  "x" : "253",
+                  "width" : "33",
+                  "height" : "29"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[day5high]°\/[day5low]°",
+                "numberOfLines" : "1"
+              },
+              "day5date" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "253",
+                  "width" : "31",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[dateplusfive] [day5shortday]",
+                "numberOfLines" : "1"
+              },
+              "cond" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "22",
+                  "x" : "48",
+                  "width" : "64",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[condition]",
+                "numberOfLines" : "1"
+              },
+              "day3date" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "181",
+                  "width" : "31",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[dateplusthree] [day3shortday]",
+                "numberOfLines" : "1"
+              },
+              "iconD5" : {
+                "frame" : {
+                  "y" : "19",
+                  "x" : "253",
+                  "width" : "22",
+                  "height" : "22"
+                },
+                "forecast" : "day5",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "bbl",
+                "imageColor" : "none"
+              },
+              "tempb4" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "32",
+                  "x" : "217",
+                  "width" : "33",
+                  "height" : "29"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[day4high]°\/[day4low]°",
+                "numberOfLines" : "1"
+              },
+              "day1date" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "109",
+                  "width" : "31",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[dateplusone] [day1shortday]",
+                "numberOfLines" : "1"
+              },
+              "iconD4" : {
+                "frame" : {
+                  "y" : "19",
+                  "x" : "217",
+                  "width" : "22",
+                  "height" : "22"
+                },
+                "forecast" : "day4",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "bbl",
+                "imageColor" : "none"
+              },
+              "tempb3" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "32",
+                  "x" : "181",
+                  "width" : "33",
+                  "height" : "29"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[day3high]°\/[day3low]°",
+                "numberOfLines" : "1"
+              },
+              "icon" : {
+                "frame" : {
+                  "y" : "10",
+                  "x" : "4",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "forecast" : "none",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "bbl",
+                "imageColor" : "none"
+              },
+              "iconD3" : {
+                "frame" : {
+                  "y" : "19",
+                  "x" : "181",
+                  "width" : "22",
+                  "height" : "22"
+                },
+                "forecast" : "day3",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "bbl",
+                "imageColor" : "none"
+              },
+              "tempb2" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "32",
+                  "x" : "146",
+                  "width" : "33",
+                  "height" : "29"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[day2high]°\/[day2low]°",
+                "numberOfLines" : "1"
+              },
+              "day4date" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "217",
+                  "width" : "31",
+                  "height" : "20"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 255, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[dateplusfour] [day4shortday]",
+                "numberOfLines" : "1"
+              },
+              "tempb1" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "32",
+                  "x" : "109",
+                  "width" : "33",
+                  "height" : "29"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[day1high]°\/[day1low]°",
+                "numberOfLines" : "1"
+              },
+              "iconD2" : {
+                "frame" : {
+                  "y" : "19",
+                  "x" : "146",
+                  "width" : "22",
+                  "height" : "22"
+                },
+                "forecast" : "day2",
+                "imageIsBlack" : "none",
+                "type" : "WeatherIcon",
+                "iconSet" : "bbl",
+                "imageColor" : "none"
+              }
+            },
+            "blurAlpha" : "0,5",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "temp,hum,cond,icon,day1date,day2date,day3date,day4date,day5date,iconD1,iconD2,iconD3,iconD4,iconD5,tempb2,tempb3,tempb4,tempb5,tempb1",
+            "rotate" : "0",
+            "blurIntensity" : "3",
+            "alpha" : "0",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "borderColor" : "rgba(255, 255, 255, 0.20)"
+          },
+          "flashlightjoke" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "light",
+            "frame" : {
+              "y" : "42",
+              "x" : "11",
+              "width" : "288",
+              "height" : "59"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "1",
+            "backgroundColor" : "rgba(173, 173, 173, 0.25)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "petir" : {
+                "maskURL" : "none",
+                "actions" : "none",
+                "frame" : {
+                  "y" : "11",
+                  "x" : "0",
+                  "width" : "35",
+                  "height" : "35"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : "none",
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "flsh.png",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
+              },
+              "addstxt" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "25",
+                  "x" : "31",
+                  "width" : "150",
+                  "height" : "26"
+                },
+                "fontName" : "Gilroy-Medium.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "5",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Led flash for a better vision at night or if you need flash.",
+                "numberOfLines" : "1"
+              },
+              "flashtxt" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "12",
+                  "x" : "30",
+                  "width" : "150",
+                  "height" : "26"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(235, 235, 235, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "14",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "FLASHLIGHT",
+                "numberOfLines" : "1"
+              },
+              "on\/off" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "9",
+                  "x" : "237",
+                  "width" : "40",
+                  "height" : "40"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "1",
+                "backgroundColor" : "rgba(51, 51, 51, 1.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "switcher" : {
+                    "maskURL" : "",
+                    "actions" : "toggleFlashlight",
+                    "frame" : {
+                      "y" : "-44",
+                      "x" : "-45",
+                      "width" : "110",
+                      "height" : "126"
+                    },
+                    "contentMode" : "scaleAspectFit",
+                    "type" : "UIImageView",
+                    "animation" : "",
+                    "imageFolder" : "none",
+                    "pauseImage" : "none",
+                    "imageIsBlack" : "none",
+                    "isAlbumArt" : "0",
+                    "imageURL" : "butwhat.png",
+                    "cornerRadius" : "0",
+                    "imageColor" : "none"
+                  }
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "20",
+                "type" : "UIView",
+                "childorder" : "switcher",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(242, 235, 216, 0.22)",
+                "animation" : {
+                  "switcher" : "{ toggle:yes,x:14,y:1,}"
+                }
+              }
+            },
+            "blurAlpha" : "0,5",
+            "cornerRadius" : "5",
+            "type" : "UIView",
+            "childorder" : "flashtxt,addstxt,on\/off,petir",
+            "rotate" : "0",
+            "blurIntensity" : "3",
+            "alpha" : "0",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
+            "animation" : "none",
+            "userInteraction" : "YES"
+          },
+          "shape" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "7",
+              "x" : "106",
+              "width" : "193",
+              "height" : "26"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(0, 0, 0, 0.26)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "indicator" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "2",
+                  "x" : "93",
+                  "width" : "22",
+                  "height" : "22"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "1",
+                "backgroundColor" : "rgba(214, 214, 214, 0.25)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "11",
+                "type" : "UIView",
+                "childorder" : "",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(214, 214, 214, 1.00)",
+                "userInteraction" : "YES",
+                "actions" : "none",
+                "animation" : "none"
+              },
+              "calndr" : {
+                "maskURL" : "1DotGreen.png",
+                "actions" : "animation",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "28",
+                  "width" : "18",
+                  "height" : "18"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : {
+                  "indicator" : "{ x:26,y:2,toggle:no,}",
+                  "flashlightjoke" : "{ alpha:0,}",
+                  "spartaright" : "{ alpha:0,}",
+                  "sparta" : "{ alpha:0,}"
+                },
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "Calendar@3x.png",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
+              },
+              "musicshape" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "borderColor" : "rgba(255,255,255,0)",
+                "frame" : {
+                  "y" : "2",
+                  "x" : "117",
+                  "width" : "74",
+                  "height" : "22"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(214, 214, 214, 0.25)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "cat" : {
+                    "maskURL" : "1DotGreen.png",
+                    "actions" : "animation",
+                    "frame" : {
+                      "y" : "2",
+                      "x" : "2",
+                      "width" : "18",
+                      "height" : "18"
+                    },
+                    "contentMode" : "scaleAspectFit",
+                    "type" : "UIImageView",
+                    "animation" : {
+                      "mp" : "{ alpha:1,toggle:yes,x:center,y:196,}"
+                    },
+                    "imageFolder" : "none",
+                    "pauseImage" : "none",
+                    "imageIsBlack" : "none",
+                    "isAlbumArt" : "yes",
+                    "imageURL" : "ASS.png",
+                    "cornerRadius" : "0",
+                    "imageColor" : "none"
+                  },
+                  "next" : {
+                    "maskURL" : "none",
+                    "actions" : "nextTrack",
+                    "frame" : {
+                      "y" : "4",
+                      "x" : "55",
+                      "width" : "14",
+                      "height" : "14"
+                    },
+                    "contentMode" : "scaleAspectFit",
+                    "type" : "UIImageView",
+                    "animation" : "none",
+                    "imageFolder" : "none",
+                    "pauseImage" : "none",
+                    "imageIsBlack" : "none",
+                    "isAlbumArt" : "0",
+                    "imageURL" : "next2.png",
+                    "cornerRadius" : "0",
+                    "imageColor" : "rgba(255, 255, 255, 1.00)"
+                  },
+                  "wrf" : {
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "textStyle" : "none",
+                    "animationSpeed" : "20",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "frame" : {
+                      "y" : "5",
+                      "x" : "17",
+                      "width" : "38",
+                      "height" : "12"
+                    },
+                    "kerning" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "textColor" : "rgba(255,255,255,1.0)",
+                    "type" : "MarqueeLabel",
+                    "fadeEdgesAmount" : "20",
+                    "numberOfLines" : "1",
+                    "data" : "[musicArtist]-[musicTitle]",
+                    "borderWidth" : "0",
+                    "gradientImage" : "none",
+                    "fontSize" : "8",
+                    "fontName" : "Gilroy-Bold.otf",
+                    "textShadow" : {
+                      "y" : "3",
+                      "radius" : "3",
+                      "x" : "0",
+                      "color" : "rgba(0,0,0,0)"
+                    },
+                    "animationDelay" : "5"
+                  }
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "11",
+                "type" : "UIView",
+                "childorder" : "cat,next,wrf",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "animation" : "none",
+                "cutWithView" : "none",
+                "blurColor" : "dark"
+              },
+              "flash" : {
+                "maskURL" : "1DotGreen.png",
+                "actions" : "animation",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "95",
+                  "width" : "18",
+                  "height" : "18"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : {
+                  "indicator" : "{ toggle:no,x:93,y:2,}",
+                  "spartaright" : "{ alpha:0,}",
+                  "weather" : "{ alpha:0,}",
+                  "flashlightjoke" : "{ alpha:1,}",
+                  "sparta" : "{ alpha:0,}"
+                },
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "comflash.png",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
+              },
+              "home" : {
+                "maskURL" : "1DotGreen.png",
+                "actions" : "animation",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "5",
+                  "width" : "18",
+                  "height" : "18"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : {
+                  "indicator" : "{toggle:no,y:2,x:3,}",
+                  "flashlightjoke" : "{ alpha:0,}",
+                  "spartaright" : "{ alpha:1,}",
+                  "sparta" : "{ alpha:1,}",
+                  "weather" : "{ alpha:0,}"
+                },
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "comhome.png",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
+              },
+              "connecti" : {
+                "maskURL" : "1DotGreen.png",
+                "actions" : "animation",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "73",
+                  "width" : "18",
+                  "height" : "18"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : {
+                  "indicator" : "{ toggle:no,x:71,y:2,}"
+                },
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "Carrier@3x.png",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
+              },
+              "weather_1" : {
+                "maskURL" : "1DotGreen.png",
+                "actions" : "animation",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "51",
+                  "width" : "18",
+                  "height" : "18"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : {
+                  "indicator" : "{toggle:no,x:49,y:2,}",
+                  "flashlightjoke" : "{ alpha:0,}",
+                  "sparta" : "{ alpha:0,}",
+                  "spartaright" : "{ alpha:0,}",
+                  "weather" : "{ alpha:1,}"
+                },
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "0",
+                "imageURL" : "comweath.png",
+                "cornerRadius" : "0",
+                "imageColor" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "12",
+            "type" : "UIView",
+            "childorder" : "musicshape,home,calndr,weather_1,connecti,indicator,flash",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "userInteraction" : "YES",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none"
+          },
+          "blind" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "1",
+              "x" : "36",
+              "width" : "150",
+              "height" : "40"
+            },
+            "fontName" : "Gilroy-Medium.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(235, 235, 235, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "12",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "Blind",
+            "numberOfLines" : "1"
+          },
+          "txt" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "1",
+              "x" : "63",
+              "width" : "50",
+              "height" : "40"
+            },
+            "fontName" : "Gilroy-Bold.otf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(235, 235, 235, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "13",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "OS",
+            "numberOfLines" : "1"
+          }
+        },
+        "blurAlpha" : "1",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "txt,img,shape,blind,sparta,spartaright,flashlightjoke,weather",
+        "rotate" : "0",
+        "blurIntensity" : "6",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.20)",
+        "userInteraction" : "YES",
+        "blurColor" : "dark2"
+      },
+      "mp" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "userInteraction" : "YES",
+        "frame" : {
+          "y" : "206",
+          "x" : "center",
+          "width" : "300",
+          "height" : "51"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "1",
+        "backgroundColor" : "rgba(173, 173, 173, 0.25)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "nextbig" : {
+            "maskURL" : "none",
+            "actions" : "nextTrack",
+            "frame" : {
+              "y" : "11",
+              "x" : "266",
+              "width" : "22",
+              "height" : "28"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "next2.png",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          },
+          "pausesaplay" : {
+            "maskURL" : "none",
+            "actions" : "playMusic",
+            "frame" : {
+              "y" : "16",
+              "x" : "225",
+              "width" : "20",
+              "height" : "20"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "pause.png",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "play.png",
+            "cornerRadius" : "0",
+            "imageColor" : "rgba(255, 255, 255, 1.00)"
+          },
+          "prevbig" : {
+            "maskURL" : "none",
+            "actions" : "prevTrack",
+            "frame" : {
+              "y" : "13",
+              "x" : "183",
+              "width" : "22",
+              "height" : "24"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "previous.png",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          },
+          "musickids" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
+            "frame" : {
+              "y" : "5",
+              "x" : "5",
+              "width" : "163",
+              "height" : "41"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "1",
+            "backgroundColor" : "rgba(0, 0, 0, 0.26)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "tit" : {
+                "borderColor" : "rgba(255,255,255,1)",
+                "textStyle" : "none",
+                "animationSpeed" : "20",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "frame" : {
+                  "y" : "14",
+                  "x" : "42",
+                  "width" : "118",
+                  "height" : "30"
+                },
+                "kerning" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "type" : "MarqueeLabel",
+                "fadeEdgesAmount" : "20",
+                "numberOfLines" : "1",
+                "data" : "[musicTitle]",
+                "borderWidth" : "0",
+                "gradientImage" : "none",
+                "fontSize" : "11",
+                "fontName" : "Gilroy-Bold.otf",
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "animationDelay" : "5"
+              },
+              "musicbare" : {
+                "radius" : "1",
+                "backColor" : "rgba(0,0,0,0.5)",
+                "frame" : {
+                  "y" : "39",
+                  "x" : "1",
+                  "width" : "162",
+                  "height" : "3"
+                },
+                "borderWidth" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "type" : "ElapsedBar",
+                "gradientImage" : "none",
+                "innerColor" : "rgba(255, 255, 255, 0.50)"
+              },
+              "whotfthis" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "11",
+                  "x" : "42",
+                  "width" : "120",
+                  "height" : "12"
+                },
+                "fontName" : "Gilroy-Bold.otf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(235, 235, 235, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "7",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[musicArtist]",
+                "numberOfLines" : "1"
+              },
+              "artwerk" : {
+                "maskURL" : "none",
+                "actions" : "openPlayingMusic",
+                "frame" : {
+                  "y" : "4",
+                  "x" : "4",
+                  "width" : "33",
+                  "height" : "33"
+                },
+                "contentMode" : "scaleAspectFit",
+                "type" : "UIImageView",
+                "animation" : "none",
+                "imageFolder" : "none",
+                "pauseImage" : "none",
+                "imageIsBlack" : "none",
+                "isAlbumArt" : "yes",
+                "imageURL" : "bgpl.png",
+                "cornerRadius" : "2",
+                "imageColor" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "3",
+            "type" : "UIView",
+            "childorder" : "artwerk,musicbare,whotfthis,tit",
+            "rotate" : "0",
+            "blurIntensity" : "3",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "animation" : "none",
+            "cutWithView" : "none",
+            "blurColor" : "light"
+          }
+        },
+        "blurAlpha" : "1",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "musickids,nextbig,prevbig,pausesaplay",
+        "rotate" : "0",
+        "blurIntensity" : "3",
+        "alpha" : "0",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.20)",
+        "animation" : "none",
+        "actions" : "none",
+        "blurColor" : "dark2"
+      }
+    }
+  }
+}
