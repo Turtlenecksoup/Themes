@@ -1,0 +1,451 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "alarmfill" : {
+        "maskURL" : "none",
+        "actions" : "none",
+        "frame" : {
+          "y" : "278",
+          "x" : "32",
+          "width" : "22",
+          "height" : "22"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "alarm.png",
+        "cornerRadius" : "0",
+        "imageColor" : "rgba(255, 255, 255, 0.90)"
+      },
+      "hmmmmm" : {
+        "maskURL" : "none",
+        "actions" : "none",
+        "frame" : {
+          "y" : "196",
+          "x" : "30",
+          "width" : "24",
+          "height" : "24"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "Scheduled.png",
+        "cornerRadius" : "0",
+        "imageColor" : "none"
+      },
+      "time_label" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "95",
+          "x" : "30",
+          "width" : "235",
+          "height" : "80"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "60",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "4",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]:[minute]",
+        "numberOfLines" : "1"
+      },
+      "Ctime1" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "211",
+          "x" : "61",
+          "width" : "140",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(194, 194, 194, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "• [calEvent1Time]",
+        "numberOfLines" : "1"
+      },
+      "temp" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "96",
+          "x" : "341",
+          "width" : "63",
+          "height" : "80"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(235, 235, 235, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "25",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[temperature][degreeSymbol]",
+        "numberOfLines" : "1"
+      },
+      "Ce2" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "229",
+          "x" : "196",
+          "width" : "243",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[calEvent2]",
+        "numberOfLines" : "1"
+      },
+      "alarminfo" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "275",
+          "x" : "112",
+          "width" : "200",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(194, 194, 194, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "13",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[alarm]",
+        "numberOfLines" : "1"
+      },
+      "day" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "160",
+          "x" : "33",
+          "width" : "200",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "18",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[day], [month] [date]",
+        "numberOfLines" : "1"
+      },
+      "alartxt" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "275",
+          "x" : "60",
+          "width" : "50",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "14",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Alarm",
+        "numberOfLines" : "1"
+      },
+      "Wicon" : {
+        "frame" : {
+          "y" : "107",
+          "x" : "288",
+          "width" : "60",
+          "height" : "60"
+        },
+        "forecast" : "none",
+        "imageIsBlack" : "none",
+        "type" : "WeatherIcon",
+        "iconSet" : "clima",
+        "imageColor" : "rgba(235, 235, 235, 1.00)"
+      },
+      "upnext" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "193",
+          "x" : "60",
+          "width" : "200",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "14",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Up Next",
+        "numberOfLines" : "1"
+      },
+      "Ce3" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "247",
+          "x" : "196",
+          "width" : "243",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[calEvent3]",
+        "numberOfLines" : "1"
+      },
+      "Ctime3" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "247",
+          "x" : "61",
+          "width" : "140",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(194, 194, 194, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "• [calEvent3Time]",
+        "numberOfLines" : "1"
+      },
+      "Ce1" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "211",
+          "x" : "196",
+          "width" : "243",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[calEvent1]",
+        "numberOfLines" : "1"
+      },
+      "Ctime2" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "229",
+          "x" : "61",
+          "width" : "140",
+          "height" : "30"
+        },
+        "fontName" : "SF-UI-Display-Bold.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(194, 194, 194, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "12",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "• [calEvent2Time]",
+        "numberOfLines" : "1"
+      }
+    }
+  }
+}
