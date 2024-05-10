@@ -1,0 +1,509 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "tintin",
+      "time_label",
+      "hemememem1",
+      "hellooooooooo",
+      "sjsusushzh",
+      "hellobyadele",
+      "batmaninfo",
+      "weinfo",
+      "tempe",
+      "forproductiveperson",
+      "hmmmm3",
+      "youtoo",
+      "dayyy",
+      "alarqu"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "hellooooooooo" : {
+        "SFWeight" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "SFColor" : "rgba(255,255,255,1)",
+        "frame" : {
+          "y" : "165",
+          "x" : "176",
+          "width" : "36",
+          "height" : "54"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "hello.png",
+        "SFSymbolName" : "none",
+        "cornerRadius" : "0",
+        "imageColor" : "none"
+      },
+      "tintin" : {
+        "SFWeight" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "SFColor" : "rgba(255,255,255,1)",
+        "frame" : {
+          "y" : "166",
+          "x" : "211",
+          "width" : "28",
+          "height" : "40"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "tintin.png",
+        "SFSymbolName" : "none",
+        "cornerRadius" : "0",
+        "imageColor" : "none"
+      },
+      "time_label" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "202",
+          "x" : "center",
+          "width" : "261",
+          "height" : "106"
+        },
+        "fontName" : "Kitto-PersonalUse.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "73",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(27, 27, 27, 0.00)",
+        "data" : "[paddedhour]:[minute]",
+        "numberOfLines" : "1"
+      },
+      "weinfo" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "305",
+          "x" : "236",
+          "width" : "56",
+          "height" : "17"
+        },
+        "fontName" : "Borel-Regular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "7",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[condition]",
+        "numberOfLines" : "1"
+      },
+      "batmaninfo" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "294",
+          "x" : "127",
+          "width" : "37",
+          "height" : "25"
+        },
+        "fontName" : "Borel-Regular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "6",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Batt : [batterypercent]%",
+        "numberOfLines" : "1"
+      },
+      "hemememem1" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "cutWithView" : "none",
+        "frame" : {
+          "y" : "293",
+          "x" : "123",
+          "width" : "47",
+          "height" : "28"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(244, 184, 64, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "hmmmm1" : {
+            "SFWeight" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "SFColor" : "rgba(255,255,255,1)",
+            "frame" : {
+              "y" : "-58",
+              "x" : "-47",
+              "width" : "154",
+              "height" : "150"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "procredox.png",
+            "SFSymbolName" : "none",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "hmmmm1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "actions" : "none",
+        "userInteraction" : "YES",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "youtoo" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "290",
+          "x" : "257",
+          "width" : "63",
+          "height" : "16"
+        },
+        "fontName" : "Kitto-PersonalUse.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(0, 0, 0, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "4",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Have A nice",
+        "numberOfLines" : "0"
+      },
+      "hellobyadele" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "186",
+          "x" : "center",
+          "width" : "300",
+          "height" : "55"
+        },
+        "fontName" : "Kitto-PersonalUse.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "18",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(27, 27, 27, 0.00)",
+        "data" : "[day], [date] [month]",
+        "numberOfLines" : "1"
+      },
+      "hmmmm3" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "animation" : "none",
+        "frame" : {
+          "y" : "289",
+          "x" : "246",
+          "width" : "47",
+          "height" : "14"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(244, 184, 64, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "hmmmm1_1_1" : {
+            "SFWeight" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "SFColor" : "rgba(255,255,255,1)",
+            "frame" : {
+              "y" : "-84",
+              "x" : "-22",
+              "width" : "100",
+              "height" : "140"
+            },
+            "contentMode" : "scaleAspectFit",
+            "type" : "UIImageView",
+            "animation" : "none",
+            "imageFolder" : "none",
+            "pauseImage" : "none",
+            "imageIsBlack" : "none",
+            "isAlbumArt" : "0",
+            "imageURL" : "procredox.png",
+            "SFSymbolName" : "none",
+            "cornerRadius" : "0",
+            "imageColor" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "hmmmm1_1_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "actions" : "none",
+        "userInteraction" : "YES",
+        "blurColor" : "dark"
+      },
+      "tempe" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "296",
+          "x" : "236",
+          "width" : "26",
+          "height" : "17"
+        },
+        "fontName" : "Borel-Regular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "8",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[temperature][degreeSymbol]",
+        "numberOfLines" : "1"
+      },
+      "dayyy" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "297",
+          "x" : "271",
+          "width" : "63",
+          "height" : "16"
+        },
+        "fontName" : "Kitto-PersonalUse.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "5",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Day!!!",
+        "numberOfLines" : "0"
+      },
+      "sjsusushzh" : {
+        "SFWeight" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "SFColor" : "rgba(255,255,255,1)",
+        "frame" : {
+          "y" : "285",
+          "x" : "205",
+          "width" : "32",
+          "height" : "45"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "fakesmile.png",
+        "SFSymbolName" : "none",
+        "cornerRadius" : "0",
+        "imageColor" : "none"
+      },
+      "alarqu" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "292",
+          "x" : "169",
+          "width" : "63",
+          "height" : "16"
+        },
+        "fontName" : "Kitto-PersonalUse.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(128, 220, 98, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "8",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "Alaram?",
+        "numberOfLines" : "0"
+      },
+      "forproductiveperson" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "299",
+          "x" : "168",
+          "width" : "35",
+          "height" : "25"
+        },
+        "fontName" : "Borel-Regular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "6",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[alarm]",
+        "numberOfLines" : "0"
+      }
+    }
+  }
+}
