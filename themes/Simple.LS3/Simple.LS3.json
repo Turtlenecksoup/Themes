@@ -1,0 +1,744 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "order" : [
+      "shp",
+      "time_label",
+      "border",
+      "b1",
+      "b2",
+      "batborder"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "batborder" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "actions" : "none",
+        "frame" : {
+          "y" : "211",
+          "x" : "302",
+          "width" : "48",
+          "height" : "48"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "3.5",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "batbg" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "30",
+              "height" : "30"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255,255,255,0.3)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "batbarr" : {
+                "radius" : "3",
+                "lowColor" : "rgba(234, 51, 35, 0.85)",
+                "backColor" : "rgba(0, 0, 0, 0.00)",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "31",
+                  "height" : "32"
+                },
+                "innerColor" : "rgba(255, 255, 255, 0.85)",
+                "borderWidth" : "0",
+                "borderColor" : "rgba(255,255,255,0)",
+                "type" : "BatteryBar",
+                "midColor" : "rgba(255, 255, 255, 0.85)",
+                "gradientImage" : "none"
+              }
+            },
+            "blurAlpha" : "1",
+            "cornerRadius" : "15",
+            "type" : "UIView",
+            "childorder" : "batbarr",
+            "rotate" : "0",
+            "blurIntensity" : "4",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.67)",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "actions" : "none"
+          },
+          "batbor" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "animation" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "36",
+              "height" : "36"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "blurAlpha" : "0",
+            "cornerRadius" : "18",
+            "type" : "UIView",
+            "childorder" : "none",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.25)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "24",
+        "type" : "UIView",
+        "childorder" : "batbg,batbor",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.25)",
+        "animation" : "none",
+        "userInteraction" : "YES",
+        "blurColor" : "dark"
+      },
+      "shp" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "userInteraction" : "YES",
+        "frame" : {
+          "y" : "105",
+          "x" : "center",
+          "width" : "271",
+          "height" : "90"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "3",
+        "backgroundColor" : "rgba(0, 0, 0, 0.00)",
+        "showWhenPlaying" : "NO",
+        "blurAlpha" : "1",
+        "cornerRadius" : "23",
+        "type" : "UIView",
+        "childorder" : "none",
+        "rotate" : "0",
+        "blurIntensity" : "4",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.67)",
+        "animation" : "none",
+        "actions" : "none",
+        "blurColor" : "dark"
+      },
+      "border" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "userInteraction" : "YES",
+        "frame" : {
+          "y" : "98",
+          "x" : "center",
+          "width" : "285",
+          "height" : "104"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "3.5",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "blurAlpha" : "0",
+        "cornerRadius" : "30",
+        "type" : "UIView",
+        "childorder" : "none",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.25)",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "b2" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "userInteraction" : "YES",
+        "frame" : {
+          "y" : "211",
+          "x" : "184",
+          "width" : "113",
+          "height" : "48"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "3.5",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "calborder_1" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "center",
+              "x" : "6",
+              "width" : "36",
+              "height" : "36"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "calendarsho_1" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "30",
+                  "height" : "30"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(0, 0, 0, 0.58)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "wicon" : {
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "center",
+                      "width" : "view_width",
+                      "height" : "view_height"
+                    },
+                    "forecast" : "none",
+                    "imageIsBlack" : "none",
+                    "type" : "WeatherIcon",
+                    "iconSet" : "bbl",
+                    "imageColor" : "none"
+                  }
+                },
+                "blurAlpha" : "1",
+                "cornerRadius" : "15",
+                "type" : "UIView",
+                "childorder" : "wicon",
+                "rotate" : "0",
+                "blurIntensity" : "4",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 0.67)",
+                "animation" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "18",
+            "type" : "UIView",
+            "childorder" : "calendarsho_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.25)",
+            "animation" : "none"
+          },
+          "monthbor_1" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "center",
+              "x" : "45",
+              "width" : "62",
+              "height" : "36"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "monthbg_1" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "56",
+                  "height" : "30"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(255, 255, 255, 0.30)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "shortmonthname_1" : {
+                    "textShadow" : {
+                      "y" : "3",
+                      "radius" : "3",
+                      "x" : "0",
+                      "color" : "rgba(0,0,0,0)"
+                    },
+                    "fontNameAttr" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "center",
+                      "width" : "view_width",
+                      "height" : "view_height"
+                    },
+                    "fontName" : "Helvetica",
+                    "fontColorAttr" : "none",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255,255,255,1.0)",
+                    "borderWidth" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "type" : "UILabel",
+                    "alpha" : "1",
+                    "fontSize" : "20",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "textStyle" : "none",
+                    "kerning" : "0",
+                    "borderColor" : "rgba(255, 255, 255, 0.00)",
+                    "data" : "[temperature][degreeSymbol]",
+                    "numberOfLines" : "1"
+                  }
+                },
+                "blurAlpha" : "1",
+                "cornerRadius" : "15",
+                "type" : "UIView",
+                "childorder" : "shortmonthname_1",
+                "rotate" : "0",
+                "blurIntensity" : "4",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 0.67)",
+                "animation" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "18",
+            "type" : "UIView",
+            "childorder" : "monthbg_1",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.25)",
+            "animation" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "23",
+        "type" : "UIView",
+        "childorder" : "calborder_1,monthbor_1",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.25)",
+        "animation" : "none",
+        "blurColor" : "dark"
+      },
+      "time_label" : {
+        "textShadow" : {
+          "y" : "63",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "107",
+          "x" : "center",
+          "width" : "280",
+          "height" : "100"
+        },
+        "fontName" : "AzonixRegular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 0.95)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "70",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "1",
+        "borderColor" : "rgba(253, 124, 15, 1.00)",
+        "data" : "[paddedhour].[minute]",
+        "numberOfLines" : "1"
+      },
+      "b1" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "211",
+          "x" : "65",
+          "width" : "113",
+          "height" : "48"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "3.5",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "calborder" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "center",
+              "x" : "6",
+              "width" : "36",
+              "height" : "36"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "calendarsho" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "30",
+                  "height" : "30"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(0, 0, 0, 0.58)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "date" : {
+                    "textShadow" : {
+                      "y" : "3",
+                      "color" : "rgba(0,0,0,0)",
+                      "x" : "0",
+                      "radius" : "3"
+                    },
+                    "fontNameAttr" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "center",
+                      "width" : "view_width",
+                      "height" : "view_height"
+                    },
+                    "fontName" : "Helvetica",
+                    "fontColorAttr" : "none",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255,255,255,1.0)",
+                    "borderWidth" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "type" : "UILabel",
+                    "alpha" : "1",
+                    "fontSize" : "20",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "textStyle" : "none",
+                    "kerning" : "0",
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "data" : "[date]",
+                    "numberOfLines" : "1"
+                  }
+                },
+                "blurAlpha" : "1",
+                "cornerRadius" : "15",
+                "type" : "UIView",
+                "childorder" : "date",
+                "rotate" : "0",
+                "blurIntensity" : "4",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 0.67)",
+                "animation" : "none",
+                "userInteraction" : "YES"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "18",
+            "type" : "UIView",
+            "childorder" : "calendarsho",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.25)",
+            "animation" : "none",
+            "userInteraction" : "YES"
+          },
+          "monthbor" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "center",
+              "x" : "45",
+              "width" : "62",
+              "height" : "36"
+            },
+            "triggerOnUnlock" : "none",
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "monthbg" : {
+                "boxShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "center",
+                  "width" : "56",
+                  "height" : "30"
+                },
+                "triggerOnUnlock" : "none",
+                "showWhenCharging" : "NO",
+                "borderWidth" : "2",
+                "backgroundColor" : "rgba(255, 255, 255, 0.30)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "shortmonthname" : {
+                    "textShadow" : {
+                      "y" : "3",
+                      "color" : "rgba(0,0,0,0)",
+                      "x" : "0",
+                      "radius" : "3"
+                    },
+                    "fontNameAttr" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "center",
+                      "width" : "view_width",
+                      "height" : "view_height"
+                    },
+                    "fontName" : "Helvetica",
+                    "fontColorAttr" : "none",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255,255,255,1.0)",
+                    "borderWidth" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "textAlignment" : "NSTextAlignmentCenter",
+                    "type" : "UILabel",
+                    "alpha" : "1",
+                    "fontSize" : "20",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "textStyle" : "none",
+                    "kerning" : "0",
+                    "borderColor" : "rgba(255, 255, 255, 0.00)",
+                    "data" : "[shortmonth]",
+                    "numberOfLines" : "1"
+                  }
+                },
+                "blurAlpha" : "1",
+                "cornerRadius" : "15",
+                "type" : "UIView",
+                "childorder" : "shortmonthname",
+                "rotate" : "0",
+                "blurIntensity" : "4",
+                "alpha" : "1",
+                "triggerOnWake" : "none",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "maskURL" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255, 255, 255, 0.67)",
+                "animation" : "none",
+                "userInteraction" : "YES"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "18",
+            "type" : "UIView",
+            "childorder" : "monthbg",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "triggerOnWake" : "none",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "maskURL" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.25)",
+            "animation" : "none",
+            "userInteraction" : "YES"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "23",
+        "type" : "UIView",
+        "childorder" : "calborder,monthbor",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.25)",
+        "animation" : "none",
+        "userInteraction" : "YES"
+      }
+    }
+  }
+}
