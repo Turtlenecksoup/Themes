@@ -1,0 +1,364 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "children" : {
+      "rotate" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "201",
+          "x" : "55",
+          "width" : "125",
+          "height" : "30"
+        },
+        "triggerOnUnlock" : "none",
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "5",
+        "type" : "UIView",
+        "childorder" : "none",
+        "rotate" : "-90",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "triggerOnWake" : "none",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "maskURL" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
+        "userInteraction" : "YES",
+        "actions" : "none"
+      },
+      "hour" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "114",
+          "x" : "90",
+          "width" : "80",
+          "height" : "100"
+        },
+        "fontName" : "DosisBold.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentRight",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "65",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]",
+        "numberOfLines" : "1"
+      },
+      "addd" : {
+        "SFWeight" : "none",
+        "maskURL" : "none",
+        "actions" : "none",
+        "SFColor" : "rgba(255,255,255,1)",
+        "frame" : {
+          "y" : "92",
+          "x" : "117",
+          "width" : "170",
+          "height" : "80"
+        },
+        "contentMode" : "scaleAspectFit",
+        "type" : "UIImageView",
+        "animation" : "none",
+        "imageFolder" : "none",
+        "pauseImage" : "none",
+        "imageIsBlack" : "none",
+        "isAlbumArt" : "0",
+        "imageURL" : "Cur1.png",
+        "SFSymbolName" : "none",
+        "cornerRadius" : "0",
+        "imageColor" : "none"
+      },
+      "daylabel" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "129",
+          "x" : "195",
+          "width" : "160",
+          "height" : "40"
+        },
+        "fontName" : "Times-New-Romance-Bold.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "14",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "lowercase",
+        "kerning" : "1",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "~ it's [day]",
+        "numberOfLines" : "1"
+      },
+      "summ" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "182",
+          "x" : "195",
+          "width" : "148",
+          "height" : "50"
+        },
+        "fontName" : "Chirp-Medium.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 0.96)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "10",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "lowercase",
+        "kerning" : "1",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[temperature][degreeSymbol] now and [condition]. Today's temperature range is from [low][degreeSymbol] to [high][degreeSymbol].",
+        "numberOfLines" : "4"
+      },
+      "again" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "109",
+          "x" : "91",
+          "width" : "30",
+          "height" : "50"
+        },
+        "fontName" : "Latinotype - RidemyBikeDingbat.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "25",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "lowercase",
+        "kerning" : "1",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "o",
+        "numberOfLines" : "1"
+      },
+      "yk" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "145",
+          "x" : "174",
+          "width" : "30",
+          "height" : "60"
+        },
+        "fontName" : "Latinotype - RidemyBikeDingbat.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "20",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "lowercase",
+        "kerning" : "1",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "k",
+        "numberOfLines" : "1"
+      },
+      "date" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "144",
+          "x" : "195",
+          "width" : "160",
+          "height" : "40"
+        },
+        "fontName" : "Times-New-Romance-Bold.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "14",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "lowercase",
+        "kerning" : "1",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "~ [date] [month] [year]",
+        "numberOfLines" : "1"
+      },
+      "min" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "158",
+          "x" : "103",
+          "width" : "80",
+          "height" : "100"
+        },
+        "fontName" : "DosisBold.ttf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentRight",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "45",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "none",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[minute]",
+        "numberOfLines" : "1"
+      },
+      "helo" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "62",
+          "x" : "center",
+          "width" : "300",
+          "height" : "80"
+        },
+        "fontName" : "Kitto-PersonalUse.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 0.90)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "51",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "capitalize",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "HELLO",
+        "numberOfLines" : "1"
+      },
+      "whatisthis" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "171",
+          "x" : "195",
+          "width" : "110",
+          "height" : "60"
+        },
+        "fontName" : "Latinotype - RidemyBikeDingbat.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 1.00)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "40",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "lowercase",
+        "kerning" : "1",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "ddd",
+        "numberOfLines" : "1"
+      }
+    }
+  }
+}

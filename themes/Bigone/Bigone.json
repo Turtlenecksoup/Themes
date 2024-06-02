@@ -1,0 +1,110 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "children" : {
+      "daydate" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "66",
+          "x" : "58",
+          "width" : "152",
+          "height" : "40"
+        },
+        "fontName" : "HirukoProRegular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 0.90)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "16",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "capitalize",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[day], [date] [shortmonth]",
+        "numberOfLines" : "1"
+      },
+      "clx" : {
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "HirukoRegularOutline.otf",
+        "frame" : {
+          "y" : "91",
+          "x" : "center",
+          "width" : "380",
+          "height" : "174"
+        },
+        "fontName" : "HirukoProRegular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "[minute]",
+        "textColor" : "rgba(255, 255, 255, 0.95)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "130",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "130",
+        "textStyle" : "none",
+        "kerning" : "-10",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[paddedhour]",
+        "numberOfLines" : "1"
+      },
+      "we" : {
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none",
+        "frame" : {
+          "y" : "66",
+          "x" : "207",
+          "width" : "152",
+          "height" : "40"
+        },
+        "fontName" : "HirukoProRegular.otf",
+        "fontColorAttr" : "none",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255, 255, 255, 0.90)",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "textAlignment" : "NSTextAlignmentRight",
+        "type" : "UILabel",
+        "alpha" : "1",
+        "fontSize" : "16",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "textStyle" : "capitalize",
+        "kerning" : "0",
+        "borderColor" : "rgba(255,255,255,1)",
+        "data" : "[condition] [temperature][degreeSymbol]",
+        "numberOfLines" : "1"
+      }
+    }
+  }
+}
