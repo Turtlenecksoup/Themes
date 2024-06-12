@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "daybox",
@@ -26,11 +26,11 @@
       "btborder" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "actions" : "none",
         "frame" : {
           "y" : "281",
           "x" : "273",
@@ -46,11 +46,11 @@
           "batfit" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "blurColor" : "dark",
+            "actions" : "none",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -73,12 +73,12 @@
                   "width" : "33",
                   "height" : "17"
                 },
-                "gradientImage" : "none",
+                "innerColor" : "rgba(104, 206, 103, 1.00)",
                 "borderWidth" : "0",
                 "borderColor" : "rgba(255,255,255,0)",
                 "type" : "BatteryBar",
-                "midColor" : "rgba(104, 206, 103, 1.00)",
-                "innerColor" : "rgba(104, 206, 103, 1.00)"
+                "gradientImage" : "none",
+                "midColor" : "rgba(104, 206, 103, 1.00)"
               }
             },
             "blurAlpha" : "0",
@@ -96,7 +96,7 @@
             "userInteraction" : "YES",
             "borderColor" : "rgba(255, 255, 255, 0.20)",
             "animation" : "none",
-            "actions" : "none"
+            "blurColor" : "dark"
           }
         },
         "blurAlpha" : "0",
@@ -114,14 +114,14 @@
         "userInteraction" : "YES",
         "borderColor" : "rgba(255, 255, 255, 0.20)",
         "animation" : "none",
-        "actions" : "none"
+        "blurColor" : "dark"
       },
       "batinfo" : {
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "fontNameAttr" : "none",
         "frame" : {
@@ -151,11 +151,11 @@
       "weath" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "userInteraction" : "YES",
+        "blurColor" : "dark",
         "frame" : {
           "y" : "281",
           "x" : "100",
@@ -171,11 +171,11 @@
           "batfit_1_1" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "animation" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -215,9 +215,9 @@
             "maskURL" : "none",
             "borderColor" : "rgba(255, 255, 255, 0.36)",
             "userInteraction" : "YES",
+            "animation" : "none",
             "actions" : "none",
-            "cutWithView" : "none",
-            "blurColor" : "dark"
+            "cutWithView" : "none"
           }
         },
         "blurAlpha" : "0",
@@ -232,17 +232,17 @@
         "gradientImage" : "none",
         "maskURL" : "none",
         "borderColor" : "rgba(255, 255, 255, 0.20)",
+        "userInteraction" : "YES",
         "actions" : "none",
         "cutWithView" : "none",
-        "animation" : "none",
-        "blurColor" : "dark"
+        "animation" : "none"
       },
       "condition" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
         "blurColor" : "dark",
         "frame" : {
@@ -260,11 +260,11 @@
           "bgconectv_1" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "animation" : "none",
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -277,12 +277,12 @@
             "backgroundColor" : "rgba(134, 187, 216, 1.00)",
             "showWhenPlaying" : "NO",
             "children" : {
-              "wifino_1" : {
+              "cond" : {
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -313,7 +313,7 @@
             "blurAlpha" : "0",
             "cornerRadius" : "8",
             "type" : "UIView",
-            "childorder" : "wifino_1",
+            "childorder" : "cond",
             "rotate" : "0",
             "blurIntensity" : "10",
             "alpha" : "1",
@@ -323,38 +323,15 @@
             "maskURL" : "none",
             "actions" : "none",
             "cutWithView" : "none",
-            "userInteraction" : "YES",
-            "borderColor" : "rgba(255, 255, 255, 0.20)",
-            "blurColor" : "dark"
-          },
-          "wifi_1" : {
-            "SFWeight" : "none",
-            "maskURL" : "none",
-            "actions" : "none",
-            "SFColor" : "rgba(255,255,255,1)",
-            "frame" : {
-              "y" : "6",
-              "x" : "46",
-              "width" : "19",
-              "height" : "13"
-            },
-            "contentMode" : "scaleAspectFit",
-            "type" : "UIImageView",
             "animation" : "none",
-            "imageFolder" : "\/var\/mobile\/Library\/DesignerAssets\/wifiImages\/rounded",
-            "pauseImage" : "none",
-            "imageIsBlack" : "none",
-            "isAlbumArt" : "0",
-            "imageURL" : "hello.png",
-            "SFSymbolName" : "none",
-            "cornerRadius" : "0",
-            "imageColor" : "rgba(214, 214, 214, 1.00)"
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
           }
         },
         "blurAlpha" : "0",
         "cornerRadius" : "12",
         "type" : "UIView",
-        "childorder" : "bgconectv_1,wifi_1",
+        "childorder" : "bgconectv_1",
         "rotate" : "0",
         "blurIntensity" : "10",
         "alpha" : "1",
@@ -363,19 +340,19 @@
         "gradientImage" : "none",
         "maskURL" : "none",
         "borderColor" : "rgba(255, 255, 255, 0.20)",
+        "userInteraction" : "YES",
         "actions" : "none",
         "cutWithView" : "none",
-        "animation" : "none",
-        "userInteraction" : "YES"
+        "animation" : "none"
       },
       "temp" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "animation" : "none",
+        "blurColor" : "dark",
         "frame" : {
           "y" : "281",
           "x" : "128",
@@ -391,11 +368,11 @@
           "batfit_1_1_1" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "userInteraction" : "YES",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -411,9 +388,9 @@
               "tempsnsn" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -453,10 +430,10 @@
             "gradientImage" : "none",
             "maskURL" : "none",
             "borderColor" : "rgba(255, 255, 255, 0.36)",
+            "userInteraction" : "YES",
             "actions" : "none",
             "cutWithView" : "none",
-            "animation" : "none",
-            "blurColor" : "dark"
+            "animation" : "none"
           }
         },
         "blurAlpha" : "0",
@@ -472,18 +449,18 @@
         "maskURL" : "none",
         "actions" : "none",
         "cutWithView" : "none",
+        "animation" : "none",
         "userInteraction" : "YES",
-        "borderColor" : "rgba(255, 255, 255, 0.20)",
-        "blurColor" : "dark"
+        "borderColor" : "rgba(255, 255, 255, 0.20)"
       },
       "daybox" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "borderColor" : "rgba(255, 255, 255, 0.20)",
         "frame" : {
           "y" : "232",
           "x" : "center",
@@ -499,11 +476,11 @@
           "dayin" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "blurColor" : "dark",
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -519,9 +496,9 @@
               "daynameanddate" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0, 0, 0, 0.38)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0, 0, 0, 0.38)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -564,7 +541,7 @@
             "cutWithView" : "none",
             "animation" : "none",
             "userInteraction" : "YES",
-            "borderColor" : "rgba(255, 255, 255, 0.20)"
+            "blurColor" : "dark"
           }
         },
         "blurAlpha" : "0",
@@ -582,16 +559,16 @@
         "cutWithView" : "none",
         "animation" : "none",
         "userInteraction" : "YES",
-        "borderColor" : "rgba(255, 255, 255, 0.20)"
+        "blurColor" : "dark"
       },
       "copy1" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "animation" : "none",
+        "blurColor" : "dark",
         "frame" : {
           "y" : "154",
           "x" : "center",
@@ -607,11 +584,11 @@
           "2_1" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "blurColor" : "dark",
+            "borderColor" : "rgba(255, 255, 255, 0.20)",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -627,9 +604,9 @@
               "minute" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0, 0, 0, 0.38)",
+                  "radius" : "2",
                   "x" : "0",
-                  "radius" : "2"
+                  "color" : "rgba(0, 0, 0, 0.38)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -672,7 +649,7 @@
             "cutWithView" : "none",
             "animation" : "none",
             "userInteraction" : "YES",
-            "borderColor" : "rgba(255, 255, 255, 0.20)"
+            "blurColor" : "dark"
           }
         },
         "blurAlpha" : "0",
@@ -688,18 +665,21 @@
         "maskURL" : "none",
         "actions" : "none",
         "cutWithView" : "none",
+        "animation" : "none",
         "userInteraction" : "YES",
-        "borderColor" : "rgba(255, 255, 255, 0.20)",
-        "blurColor" : "dark"
+        "borderColor" : "rgba(255, 255, 255, 0.20)"
       },
       "on" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : {
+          "batfit_1" : "{ alpha:1,}",
+          "unnch" : "{ alpha:0,}"
+        },
         "frame" : {
           "y" : "80",
           "x" : "235",
@@ -726,19 +706,19 @@
         "borderColor" : "rgba(255,255,255,0)",
         "userInteraction" : "NO",
         "actions" : "animation",
-        "animation" : {
-          "batfit_1" : "{ alpha:1,}",
-          "unnch" : "{ alpha:0,}"
-        }
+        "blurColor" : "dark"
       },
       "off" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : {
+          "batfit_1" : "{ alpha:0,}",
+          "unnch" : "{ alpha:1,}"
+        },
         "frame" : {
           "y" : "80",
           "x" : "270",
@@ -765,19 +745,16 @@
         "borderColor" : "rgba(255,255,255,0)",
         "userInteraction" : "NO",
         "actions" : "animation",
-        "animation" : {
-          "batfit_1" : "{ alpha:0,}",
-          "unnch" : "{ alpha:1,}"
-        }
+        "blurColor" : "dark"
       },
       "copy2" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : "none",
         "frame" : {
           "y" : "154",
           "x" : "247",
@@ -793,11 +770,11 @@
           "2_1_1" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "cutWithView" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -813,9 +790,9 @@
               "minute_1" : {
                 "textShadow" : {
                   "y" : "3",
-                  "radius" : "2",
+                  "color" : "rgba(0, 0, 0, 0.38)",
                   "x" : "0",
-                  "color" : "rgba(0, 0, 0, 0.38)"
+                  "radius" : "2"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -854,11 +831,11 @@
             "scale" : "0",
             "gradientImage" : "none",
             "maskURL" : "none",
+            "cutWithView" : "none",
             "borderColor" : "rgba(255, 255, 255, 0.20)",
             "userInteraction" : "YES",
             "animation" : "none",
-            "actions" : "none",
-            "blurColor" : "dark"
+            "actions" : "none"
           }
         },
         "blurAlpha" : "0",
@@ -876,16 +853,16 @@
         "userInteraction" : "YES",
         "actions" : "none",
         "cutWithView" : "none",
-        "animation" : "none"
+        "blurColor" : "dark"
       },
       "1" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "borderColor" : "rgba(255, 255, 255, 0.20)",
+        "blurColor" : "dark",
         "frame" : {
           "y" : "154",
           "x" : "99",
@@ -901,11 +878,11 @@
           "2" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "blurColor" : "dark",
+            "animation" : "none",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -921,9 +898,9 @@
               "hour" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0, 0, 0, 0.38)",
+                  "radius" : "2",
                   "x" : "0",
-                  "radius" : "2"
+                  "color" : "rgba(0, 0, 0, 0.38)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -966,7 +943,7 @@
             "cutWithView" : "none",
             "userInteraction" : "YES",
             "borderColor" : "rgba(255, 255, 255, 0.20)",
-            "animation" : "none"
+            "blurColor" : "dark"
           }
         },
         "blurAlpha" : "0",
@@ -980,20 +957,20 @@
         "scale" : "0",
         "gradientImage" : "none",
         "maskURL" : "none",
+        "borderColor" : "rgba(255, 255, 255, 0.20)",
         "actions" : "none",
         "cutWithView" : "none",
         "animation" : "none",
-        "userInteraction" : "YES",
-        "blurColor" : "dark"
+        "userInteraction" : "YES"
       },
       "bolt" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : "none",
         "frame" : {
           "y" : "281",
           "x" : "244",
@@ -1009,11 +986,11 @@
           "batfit_1" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "blurColor" : "dark",
+            "animation" : "none",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -1065,16 +1042,16 @@
             "cutWithView" : "none",
             "userInteraction" : "YES",
             "borderColor" : "rgba(255, 255, 255, 0.36)",
-            "animation" : "none"
+            "blurColor" : "dark"
           },
           "unnch" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "animation" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "center",
               "x" : "center",
@@ -1124,9 +1101,9 @@
             "maskURL" : "none",
             "actions" : "none",
             "cutWithView" : "none",
+            "animation" : "none",
             "userInteraction" : "YES",
-            "borderColor" : "rgba(255, 255, 255, 0.36)",
-            "blurColor" : "dark"
+            "borderColor" : "rgba(255, 255, 255, 0.36)"
           }
         },
         "blurAlpha" : "0",
@@ -1144,7 +1121,7 @@
         "cutWithView" : "none",
         "userInteraction" : "YES",
         "borderColor" : "rgba(255, 255, 255, 0.20)",
-        "animation" : "none"
+        "blurColor" : "dark"
       }
     }
   }
